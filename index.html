@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dashboard Informasi Pangan</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<script>
+    window.addEventListener('scroll', function() {
+        let cards = document.querySelectorAll('.card');
+    
+        cards.forEach(card => {
+            let posisi = card.getBoundingClientRect().top;
+    
+            if(posisi < window.innerHeight - 100){
+                card.classList.add('show');
+            }
+        });
+    });
+    </script>
+<body>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            let cards = document.querySelectorAll('.card');
+        
+            cards.forEach(card => {
+                let posisi = card.getBoundingClientRect().top;
+        
+                if(posisi < window.innerHeight - 100){
+                    card.classList.add('show');
+                }
+            });
+        });
+        </script>
+        <!-- Navbar -->
+        <div class="navbar">
+            <a href="index.html">Homepage</a>
+            <a href="About_Us.html">About Us</a>
+            <a href="Materi.html">Materi</a>
+            <a href="Summary.html">Summary</a>
+        </div>
+        
+        <!-- Hero Section -->
+        <div class="hero">
+            <h1>Sistem Informasi Pangan</h1>
+            <p>Media Informasi dan Edukasi Pangan</p>
+        </div>
+        
+        <!-- Menu Utama -->
+        <div class="container">
+        
+            <div class="cards">
+        
+                <div class="card">
+                    <h3>👥 About Us</h3>
+                    <p>Informasi anggota kelompok dan profil tim.</p>
+        
+                    <a href="About_Us.html">
+                        <button class="btn">Buka</button>
+                    </a>
+                </div>
+        
+                <div class="card">
+                    <h3>📚 Materi</h3>
+                    <p>Kumpulan materi mengenai pangan dan ketahanan pangan.</p>
+        
+                    <a href="Materi.html">
+                        <button class="btn">Buka</button>
+                    </a>
+                </div>
+        
+                <div class="card">
+                    <h3>📋 Summary</h3>
+                    <p>Ringkasan materi dan laporan pembelajaran.</p>
+        
+                    <a href="Summary.html">
+                        <button class="btn">Buka</button>
+                    </a>
+                </div>
+        
+            </div>
+        
+        </div>
+        
+        <!-- Tentang Website -->
+        <section class="info-section">
+        
+            <h2>Tentang Sistem Informasi Pangan</h2>
+        
+            <p>
+                Sistem Informasi Pangan merupakan media edukasi yang menyediakan
+                informasi mengenai pangan, gizi, ketahanan pangan, serta data yang
+                berkaitan dengan kebutuhan pangan masyarakat. Website ini dibuat
+                sebagai sarana pembelajaran dan penyampaian informasi yang mudah
+                dipahami oleh pengguna.
+            </p>
+        
+        </section>
+        
+        <!-- Statistik -->
+        <section class="stats-section">
+        
+            <h2 class="judul-statistik">Statistik Website</h2>
+        
+            <div class="stats">
+        
+                <div class="stat-box">
+                    <h2>10+</h2>
+                    <p>Materi Pangan</p>
+                </div>
+        
+                <div class="stat-box">
+                    <h2>4</h2>
+                    <p>Anggota Kelompok</p>
+                </div>
+        
+                <div class="stat-box">
+                    <h2>100%</h2>
+                    <p>Informasi Edukatif</p>
+                </div>
+        
+            </div>
+        
+        </section>
+        
+        <!-- Footer -->
+        <footer>
+        
+            <h3>Sistem Informasi Pangan</h3>
+        
+            <p>
+                Website edukasi pangan untuk mendukung pengetahuan masyarakat
+                mengenai pangan dan ketahanan pangan.
+            </p>
+        
+            <p>
+                © 2026 Fikri Fatria Pamungkas
+            </p>
+        
+        </footer>
